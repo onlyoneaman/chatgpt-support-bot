@@ -1,4 +1,6 @@
-### ChatGPT Based Support Bot
+### ChatGPT Based Support Bot 
+
+Article: [Building a Support Bot for your website using Python, OpenAI](https://onlyoneaman.medium.com/building-a-support-bot-for-your-website-using-python-openai-3cde0a6b5e91)
 
 This is a support bot based on the ChatGPT by <a href="https://onlyoneaman.com" target="_blank">onlyoneaman</a> which 
 provides information to your customers based on your knowledge base.
