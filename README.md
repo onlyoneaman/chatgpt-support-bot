@@ -15,3 +15,24 @@ git clone git@github.com:onlyoneaman/chatgpt-support-bot.git
 pip install -r requirements.txt
 ```
 
+3. Add OpenAI API key to the environment variables (.env)
+```
+# .env
+OPENAI_KEY=YOUR_OPENAI_KEY_HERE
+```
+
+4. Create Embeddings for Knowledge Base
+```
+python embed_text.py
+```
+
+5. Run the bot
+```
+python answer.py
+```
+
+### Adding Knowledge Base
+
+You can add documents to the knowledge base by adding them to the `documents` folder.
+Files should be in .txt format. 
+After adding the documents, you need to run the `embed_text.py` script to create embeddings for the documents.
